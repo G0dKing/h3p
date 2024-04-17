@@ -1,0 +1,20 @@
+{
+  "name": "backend-server",
+  "version": "0.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "cd src && node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
