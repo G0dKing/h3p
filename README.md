@@ -1,5 +1,7 @@
-![jsFlorp](https://github.com/G0dKing/jsflo/assets/68952952/ca0da65c-8a2f-4a93-8cd1-b9c2039640e0)
+
 # jsfLO
+![jsflogo](https://github.com/G0dKing/jsflo/assets/68952952/594c5d30-7cdf-4abb-82ef-a2d91cfca0ed)
+
 ## A pre-configured fullstack MERN boilerplate ready for customization!
 ### NODE.JS | EXPREESS.JS | REACT.JS | VITE | MONGODB
 
