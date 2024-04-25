@@ -24,7 +24,7 @@
 }
 
 .heading {
-    /* Initial position */
+  /* Initial position */
   position: relative;
   bottom: 0;
   left: 18%;
@@ -48,11 +48,11 @@
 
 @keyframes slideIn {
   from {
-    bottom: -100px; /* Start from below the viewport */
+    bottom: -100px;
     opacity: 0;
   }
   to {
-   bottom: 50px; /* Final position */
+   bottom: 50px;
     opacity: 1;
   }
 }

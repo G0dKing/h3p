@@ -1,6 +1,10 @@
+/** NeonSign.css **/
+
 h1 {
   font-weight: 200;
   font-style: normal;
+  height: auto;
+  max-width: 80%;
   text-shadow: 2px 2px 1px black;
   color: #000000;
   padding: 1rem 1rem 1rem;

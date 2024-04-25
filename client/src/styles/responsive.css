@@ -1,0 +1,14 @@
+/** responsive.css **/
+
+/** Smartphone Screens **/
+@media only screen and (max-width: 768px) {
+    .logo {
+        max-width: 100%;
+    }
+    .hero-text {
+        margin-top: 20px;
+    }
+    p {
+        font-size: 1.2em;
+    }
+}
