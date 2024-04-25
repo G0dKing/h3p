@@ -2,6 +2,15 @@
 
 /** Smartphone Screens **/
 @media only screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+        max-width: 768px;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
     .hero {
         display: flex;
         flex-direction: column;
@@ -23,18 +32,15 @@
     h1 {
         max-width: 100%;
         height: auto;
-        padding: 2rem;
         margin: 0 auto;
-        font-size: 2em;
+        font-size: 24px;;
     }
+
     h2 {
         width: 100%;
-        vertical-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 2rem;
-        margin: 0 auto;
     }
 }
