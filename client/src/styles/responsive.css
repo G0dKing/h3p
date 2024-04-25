@@ -3,12 +3,16 @@
 /** Smartphone Screens **/
 @media only screen and (max-width: 768px) {
     .logo {
-        max-width: 100%;
+        max-width: 80%;
     }
     .hero-text {
         margin-top: 20px;
+        width: 100%;
     }
-    p {
-        font-size: 1.2em;
+    h1 {
+        max-width: 60%;
+        height: auto;
+        padding: 2rem;
+        margin: 0 auto;
     }
 }
