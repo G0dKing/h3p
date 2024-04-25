@@ -24,13 +24,16 @@
     }
     .hero-text {
         margin-top: 20px;
-        width: 100%;
+        width: 80%;
         justify-content: center;
         align-items: center;
         text-align: center;
+        display:flex;
     }
     h1 {
+        display:flex;
         max-width: 100%;
+        width: 60vw;
         height: auto;
         margin: 0 auto;
         font-size: 24px;;
@@ -42,5 +45,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        position: relative;
+        vertical-align: center;
     }
 }
