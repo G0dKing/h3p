@@ -2,6 +2,7 @@
   "scripts": {
     "deploy": "cd client && npm i && npm run build && cd ../server && npm i && npm run start",
     "init": "cd client && npm i && npm run build && cd ../server && npm i && npm run start",
-    "reset": "cd client && rm -rf node_modules package-lock.json && npm i && cd ../server && rm -rf node_modules package-lock.json && npm i"
+    "reset": "cd client && rm -rf node_modules package-lock.json && npm i && cd ../server && rm -rf node_modules package-lock.json && npm i",
+    "dev": "cd server/src && nodemon server.js"
   }
 }

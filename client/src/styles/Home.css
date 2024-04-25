@@ -1,0 +1,71 @@
+/** Home.css **/
+@import url(./normalize.css);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+@font-face {
+  font-family: 'Neon';
+  src: local('Neon'), url('../assets/Neon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10;
+  --neon-text-color: rgb(251, 0, 0);
+  --neon-border-color: rgb(255, 0, 0);
+}
+html{box-sizing:border-box;}
+*,*:before,*:after{box-sizing:inherit;}
+
+body {
+    padding:0;
+    margin:0;
+    width:100%;
+    min-height: 100vh;
+    background-image: url('../assets/bg2.jpg');
+    background-position: center;
+    background-size: span;
+    background-repeat: no-repeat;
+}
+
+.hero {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    height: auto;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hero-text {
+  font-family: 'Neon';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position:relative;
+   margin-top:-10%;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 28px;
+  position: relative;
+  display: flex;
+  background: rgba(0, 0, 0, 0);
+  text-shadow: 1px 1px 1px black,
+  -1px -1px 0px black,
+  -2px -2px 2px black;
+  box-shadow: 0px 0px 0px black;
+  background: rgba(0, 0, 0, 0);
+}

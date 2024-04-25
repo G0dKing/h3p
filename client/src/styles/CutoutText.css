@@ -1,0 +1,58 @@
+.black {
+  background: black;
+  color: white;
+  mix-blend-mode: multiply;
+}
+ .white {
+  background: white;
+  color: black;
+  mix-blend-mode: screen;
+}
+
+.white:hover,
+.white:focus {
+  background: black;
+  color: white;
+  mix-blend-mode: multiply;
+}
+
+.black:hover,
+.black:focus {
+  background: white;
+  color: black;
+  mix-blend-mode: screen;
+}
+
+.heading {
+    /* Initial position */
+  position: relative;
+  bottom: 0;
+  left: 18%;
+  transform: translateX(-50%);
+  opacity: 0;
+  animation: slideIn 5s ease 5s forwards;
+
+  display: inline;
+  flex-wrap: nowrap;
+  font-family: sans-serif;
+  font-size: 24px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  vertical-align: center;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -100px; /* Start from below the viewport */
+    opacity: 0;
+  }
+  to {
+   bottom: 50px; /* Final position */
+    opacity: 1;
+  }
+}
