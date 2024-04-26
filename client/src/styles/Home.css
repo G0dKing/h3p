@@ -2,12 +2,7 @@
 
 @import url(./normalize.css);
 @import url(./responsive.css);
-@font-face {
-  font-family: 'Neon';
-  src: local('Neon'), url('../assets/Neon.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 #root {
   max-width: 1280px;
@@ -26,7 +21,7 @@ body {
     margin:0;
     width:100%;
     min-height: 100vh;
-    background-image: url('../assets/bg2.jpg');
+    background-image: url('../assets/bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
