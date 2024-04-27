@@ -2,11 +2,15 @@ const express = require('express')
 const config = require('./config/config')
 const applyMiddlewares = require('./middleware/middleware')
 const serveStaticFiles = require('./static/staticFiles')
+const emailSubmit = require('./routes/emailSubmitRoute.js')
 
 const app = express()
 app.set('trust proxy', 1)
 
 applyMiddlewares(app)
+
+app.use('/submit', emailSubmit)
+
 serveStaticFiles(app)
 
 app.listen(config.PORT, config.HOST, () => {

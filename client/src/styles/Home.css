@@ -1,14 +1,11 @@
 /** Home.css **/
 
-@import url(./normalize.css);
-@import url(./responsive.css);
-
+@import url('./normalize.css');
+@import url('./responsive.css');
+@import url('./fonts.css');
 
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 10;
   --neon-text-color: rgb(251, 0, 0);
   --neon-border-color: rgb(255, 0, 0);
 }
