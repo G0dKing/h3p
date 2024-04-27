@@ -4,13 +4,7 @@
 | A. Downscale (Desktop -> Mobile) |
 ---------------------------------**/
 
-.container {
-  max-width: 1536px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
+
 @media (max-width: 1536px) {
   .container {
     max-width: 1280px;

@@ -5,7 +5,6 @@
 @import url('./fonts.css');
 
 #root {
-  max-width: 1280px;
   --neon-text-color: rgb(251, 0, 0);
   --neon-border-color: rgb(255, 0, 0);
 }
@@ -22,6 +21,14 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .hero {
