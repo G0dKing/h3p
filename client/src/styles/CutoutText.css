@@ -4,16 +4,16 @@
   mix-blend-mode: multiply;
 }
  .white {
-  background: white;
-  color: black;
-  mix-blend-mode: screen;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  
 }
 
 .white:hover,
 .white:focus {
-  background: black;
-  color: white;
-  mix-blend-mode: multiply;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  
 }
 
 .black:hover,
@@ -27,22 +27,20 @@
   /* Initial position */
   position: relative;
   bottom: 0;
-  left: 18%;
-  transform: translateX(-50%);
   opacity: 0;
-  animation: slideIn 5s ease 5s forwards;
-
+  animation: slideIn 5s ease 3s forwards;
+  padding: 5px;
   display: inline;
   flex-wrap: nowrap;
   font-family: sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   width: 100%;
-  max-width: 300px;
+  max-width: 320px;
   height: auto;
   vertical-align: center;
   text-align: center;
   justify-content: center;
-  margin: 10px;
+  margin: 20px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -52,7 +50,7 @@
     opacity: 0;
   }
   to {
-   bottom: 50px;
+   bottom: 10px;
     opacity: 1;
   }
 }

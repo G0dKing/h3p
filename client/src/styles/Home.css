@@ -1,7 +1,6 @@
 /** Home.css **/
 
 @import url('./normalize.css');
-@import url('./responsive.css');
 @import url('./fonts.css');
 
 #root {
@@ -16,7 +15,7 @@ body {
     padding:0;
     margin:0;
     width:100%;
-    min-height: 100vh;
+    height: 100vh;
     background-image: url('../assets/bg.jpg');
     background-position: center;
     background-size: cover;
@@ -37,53 +36,52 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .logo {
     display: flex;
-    height: auto;
-    width: 500px;
+    max-height: 300px;
+    max-width: 100vw;
     padding: 10px;
     margin: 10px;
+    margin-top: 200px;
+    transition: filter .3s ease;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff0000aa);
 }
 
 .hero-text {
   font-family: 'Neon';
+  font-size: 18px;
   display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
   justify-content: center;
   align-items: center;
   text-align: center;
   position:relative;
-  margin-top:-10%;
+  margin-top:5%;
 }
 
-@media (max-width: 1536px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-@media (max-width: 1280px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-@media (max-width: 1024px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    max-width: 640px;
-  }
-}
+
 @media (max-width: 640px) {
   .container {
     max-width: 475px;
   }
+  h1 {
+    font-size: 36px;
+    width: 100%;
+  }
 }
 @media (max-width: 475px) {
   .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 36px;
     width: 100%;
   }
 }

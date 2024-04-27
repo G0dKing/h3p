@@ -1,7 +1,6 @@
 import {} from 'react'
-import '@style/App.css'
 import '@style/Home.css'
-import logo from '@asset/h3logo.png'
+import logo from '@asset/logo.png'
 
 const Logo = () => {
   return (
