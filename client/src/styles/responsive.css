@@ -1,6 +1,4 @@
-/** responsive.css *//
-
-/**
+/** responsive.css **/
 
 /**--------------------------------
 | A. Downscale (Desktop -> Mobile) |
@@ -48,7 +46,8 @@
 | B. Upscale (Mobile -> Desktop) |
 -------------------------------**/
 
-/**
+/**------
+
 .container {
   width: 100%;
   margin-left: auto;
@@ -86,4 +85,5 @@
     max-width: 1536px;
   }
 }
-**/
+
+------**/
