@@ -3,7 +3,6 @@ import Logo from '@comp/Logo'
 import NeonSign from '@comp/NeonSign'
 import CutoutText from '@comp/CutoutText'
 import Modal from '@comp/Modal'
-import Footer from '@comp/Footer'
 import '@style/Home.css'
 
 const Home = () => {
