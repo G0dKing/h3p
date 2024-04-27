@@ -66,6 +66,31 @@ body {
   margin-top:5%;
 }
 
+.footer {
+  position: absolute;
+  display: flex;
+  height: auto;
+  max-height: 20px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+  color: rgba(255, 255, 255, 0.26);
+  font-size: 14px;
+  line-height: 1rem;
+}
+
+.copyright {
+height: auto;
+
+
+}
+span {
+  width: auto;
+  text-shadow: 5px 2rem 2px black,
+  -2rem -5rem 1rem black,;
+}
+
 
 @media (max-width: 640px) {
   .container {
