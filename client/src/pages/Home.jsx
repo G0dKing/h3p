@@ -28,7 +28,7 @@ const Home = () => {
           </div>
           <CutoutText onClick={openModal} />
 
-          {showModal && <Modal onClose={closeModal} />}
+          <Modal onClose={closeModal} />
         </div>
       </section>
     </div>
