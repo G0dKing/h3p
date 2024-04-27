@@ -15,7 +15,7 @@ const Modal = ({ onClose }) => {
             console.error('Error submitting form data:', error)
         }
     }
-
+        
     useEffect(() => {
         const handleClickOutside = (e) => {
             if (!e.target.closest('.modal-content')) {
@@ -33,7 +33,6 @@ const Modal = ({ onClose }) => {
     return (
         <div className='modal'>
             <div className='modal-content'>
-                <span className='close' onClick={onClose}>&times;</span>
                 <form onSubmit={handleSubmit}>
                  <label>
                     Your Email:

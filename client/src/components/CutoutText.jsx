@@ -5,7 +5,7 @@ import '@style/CutoutText.css'
 const CutoutText = ({ onClick }) => {
     return (
       <>
-     <h2 className="white heading" onClick={onClick}>JOIN OUR MAILING LIST</h2>
+     <button className="white heading" onClick={onClick}>JOIN OUR MAILING LIST</button>
       </>
     );
 }
