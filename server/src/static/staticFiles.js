@@ -15,4 +15,4 @@ const serveStaticFiles = (app) => {
     })
 }
 
-module.exports = serveStaticFiles
+module.exports = serveStaticFiles;

@@ -15,4 +15,4 @@ const applyMiddlewares = (app) => {
     app.use(rateLimit)
 }
 
-module.exports = applyMiddlewares
+module.exports = applyMiddlewares;

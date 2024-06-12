@@ -26,3 +26,8 @@ dist-ssr
 *.sw?
 
 *workspace*
+db.js
+package-lock.json
+dist
+cliebt/dist
+dist/
