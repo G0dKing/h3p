@@ -1,3 +1,5 @@
+// middleware.js
+
 const express = require('express')
 const cors = require('cors')
 const helmet = require('helmet')
@@ -8,11 +10,11 @@ const rateLimit = limiter({
     max: 100
 })
 
-const applyMiddlewares = (app) => {
+const applyMiddleware = (app) => {
     app.use(cors())
     app.use(helmet())
     app.use(express.json())
     app.use(rateLimit)
 }
 
-module.exports = applyMiddlewares;
+module.exports = applyMiddleware;

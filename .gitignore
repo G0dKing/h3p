@@ -31,3 +31,4 @@ dist
 client/dist
 dist/
 .old
+.github

@@ -1,3 +1,4 @@
+// db.js
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://admin:h3pAdmin@h3pcluster.huxm225.mongodb.net/?retryWrites=true&w=majority&appName=h3pCluster";
@@ -17,7 +18,7 @@ async function run() {
     await client.connect();
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
-    console.log("Connected to Database Cluster");
+    console.log("Database Connected");
   } finally {
     // Ensures that the client will close when you finish/error
     await client.close();

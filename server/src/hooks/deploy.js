@@ -1,8 +1,10 @@
+// deploy.js
+
 const express = require('express')
 const path = require('path')
-const config = require('../config/config')
+const config = require('./config')
 
-const serveStaticFiles = (app) => {
+const deployClient = (app) => {
     if (config.NODE_ENV !== 'production') {
         app.use(express.static(path.join(__dirname, "..", "..", "..", "client", "dist")
         ))
@@ -15,4 +17,4 @@ const serveStaticFiles = (app) => {
     })
 }
 
-module.exports = serveStaticFiles;
+module.exports = deployClient;
