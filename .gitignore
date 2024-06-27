@@ -29,5 +29,6 @@ dist-ssr
 db.js
 package-lock.json
 dist
-cliebt/dist
+client/dist
 dist/
+.old
