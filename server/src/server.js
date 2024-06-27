@@ -9,7 +9,7 @@ const app = express()
 app.set('trust proxy', 1)
 applyMiddlewares(app)
 
-connectDB();
+connectDB;
 
 app.use('/submit', emailSubmit)
 
