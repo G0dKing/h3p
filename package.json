@@ -5,4 +5,9 @@
     "reset": "cd client && rm -rf node_modules package-lock.json && npm i && cd ../server && rm -rf node_modules package-lock.json && npm i",
     "dev": "cd server/src && nodemon server.js"
   }
+
+
+
+
+
 }
