@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "h3p-client",
   "private": true,
   "version": "0.0.3",
   "type": "module",
@@ -8,11 +8,19 @@
     "build": "vite build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
     "dotenv": "^16.4.5",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.3",
     "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {

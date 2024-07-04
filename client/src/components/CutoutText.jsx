@@ -1,6 +1,6 @@
 import { } from 'react'
 import PropTypes from 'prop-types'
-import '@style/CutoutText.css'
+import '@s/CutoutText.css'
 
 const CutoutText = ({ onClick }) => {
     return (

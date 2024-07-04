@@ -5,10 +5,11 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@comp': '/src/components',
-      '@style': '/src/styles',
-      '@asset': '/src/assets',
-      '@page': '/src/pages',
+      '@a': '/src/assets',
+      '@c': '/src/components',
+      '@h': '/src/hooks',
+      '@p': '/src/pages',
+      '@s': '/src/styles',
     }
   },
   server: {

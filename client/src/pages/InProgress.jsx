@@ -3,7 +3,7 @@ import Logo from "@comp/Logo";
 import NeonSign from "@comp/NeonSign";
 import CutoutText from "@comp/CutoutText";
 import Modal from "@comp/Modal";
-import "@style/InProgress.css";
+import "@s/InProgress.css";
 
 const InProgress = () => {
 

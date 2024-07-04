@@ -1,5 +1,5 @@
 import { } from 'react'
-import '@style/NeonSign.css'
+import '@s/NeonSign.css'
 
 const NeonSign = () => {
     return (

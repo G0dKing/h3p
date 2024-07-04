@@ -1,5 +1,5 @@
 {
-  "name": "backend-server",
+  "name": "h3p-server",
   "version": "0.0.3",
   "main": "src/server.js",
   "scripts": {
