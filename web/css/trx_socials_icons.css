@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'trx_socials_icons';
+  src: url('../font/trx_socials_icons.eot?13176568');
+  src: url('../font/trx_socials_icons.eot?13176568#iefix') format('embedded-opentype'),
+       url('../font/trx_socials_icons.woff2?13176568') format('woff2'),
+       url('../font/trx_socials_icons.woff?13176568') format('woff'),
+       url('../font/trx_socials_icons.ttf?13176568') format('truetype'),
+       url('../font/trx_socials_icons.svg?13176568#trx_socials_icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'trx_socials_icons';
+    src: url('../font/trx_socials_icons.svg?13176568#trx_socials_icons') format('svg');
+  }
+}
+*/
+ 
+ [class^="trx_socials_icon-"]:before, [class*=" trx_socials_icon-"]:before {
+  font-family: "trx_socials_icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.trx_socials_icon-video:before { content: '\e800'; } /* '' */
+.trx_socials_icon-picture:before { content: '\e801'; } /* '' */
+.trx_socials_icon-camera:before { content: '\e802'; } /* '' */
+.trx_socials_icon-star:before { content: '\e803'; } /* '' */
+.trx_socials_icon-star-empty:before { content: '\e804'; } /* '' */
+.trx_socials_icon-check:before { content: '\e805'; } /* '' */
+.trx_socials_icon-cancel:before { content: '\e806'; } /* '' */
+.trx_socials_icon-home:before { content: '\e807'; } /* '' */
+.trx_socials_icon-thumbs-up:before { content: '\e808'; } /* '' */
+.trx_socials_icon-thumbs-down:before { content: '\e809'; } /* '' */
+.trx_socials_icon-eye:before { content: '\e80a'; } /* '' */
+.trx_socials_icon-reply:before { content: '\e80b'; } /* '' */
+.trx_socials_icon-reply-all:before { content: '\e80c'; } /* '' */
+.trx_socials_icon-forward:before { content: '\e80d'; } /* '' */
+.trx_socials_icon-quote:before { content: '\e80e'; } /* '' */
+.trx_socials_icon-retweet:before { content: '\e80f'; } /* '' */
+.trx_socials_icon-heart-empty:before { content: '\e810'; } /* '' */
+.trx_socials_icon-attach:before { content: '\e811'; } /* '' */
+.trx_socials_icon-tag:before { content: '\e812'; } /* '' */
+.trx_socials_icon-feather:before { content: '\e813'; } /* '' */
+.trx_socials_icon-heart:before { content: '\e814'; } /* '' */
+.trx_socials_icon-film-alt:before { content: '\e815'; } /* '' */
+.trx_socials_icon-comment:before { content: '\e816'; } /* '' */
+.trx_socials_icon-chat:before { content: '\e817'; } /* '' */
+.trx_socials_icon-film:before { content: '\e818'; } /* '' */
+.trx_socials_icon-videocam:before { content: '\e819'; } /* '' */
+.trx_socials_icon-videocam-alt-empty:before { content: '\e81a'; } /* '' */
+.trx_socials_icon-videocam-alt:before { content: '\e81b'; } /* '' */
+.trx_socials_icon-videocam-empty:before { content: '\e81c'; } /* '' */
+.trx_socials_icon-comment-empty:before { content: '\f0e5'; } /* '' */
+.trx_socials_icon-chat-empty:before { content: '\f0e6'; } /* '' */
