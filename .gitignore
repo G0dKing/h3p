@@ -32,3 +32,5 @@ client/dist
 dist/
 .old
 .github
+.vs-code
+
