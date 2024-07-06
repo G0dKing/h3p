@@ -1,9 +1,0 @@
-/** fonts.css **/
-
-/** Neon **/
-@font-face {
-  font-family: 'Neon';
-  src: local('Neon'), url('../assets/Neon.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
