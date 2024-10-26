@@ -12,7 +12,7 @@
 
 ```shell
 # Clone Repository
-git clone http@w/github.com/G0dKing/h3p.git
+git clone https://github.com/G0dKing/h3p.git
 
 # Update with MongoDB URI and save as 'DB.js'
 sudo nano h3p/server/config/db.js.no_uri
@@ -21,4 +21,4 @@ sudo nano h3p/server/config/db.js.no_uri
 cd h3p && npm run init
 ```
 
-- Open htt@w/localhost:3000 to view site.
+- Open http://localhost:3000 to view site.
