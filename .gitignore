@@ -33,4 +33,4 @@ dist/
 .old
 .github
 .vs-code
-
+.vscode
