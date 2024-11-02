@@ -76,7 +76,7 @@
         text-align: center;
         flex-direction: row;
         width: 100%;
-        font-size: 12px;
+        font-size: 13px;
         gap: 12px;
         margin: 0;
     }
@@ -93,6 +93,7 @@
         margin-top: 100px;
         flex-direction: row;
         gap: 15px;
+        padding: 4px;
     }
 
     .content {
@@ -103,8 +104,9 @@
         padding: 5%;
         text-align: center;
         left: 0;
-        top: -10%;
+        top: 0;
         height: 100%;
+
     }
 
     .content .title {
@@ -139,28 +141,69 @@
 }
 
 /* Smaller mobile screens */
-@media (max-width: 480px) {
+@media (max-width: 640px) {
+
+    .banner {
+        top: 5%;
+        padding: 5px;
+
+    }
+
     .banner p {
-        font-size: 8px;
         letter-spacing: 4px;
+        padding: 2px;
+        margin: 2px;
+        font-size: 10px;
+    }
+
+    .navbar {
+        top: 7%;
+        z-index: 1;
+        padding: 2px;
     }
 
     .navbar .menu {
         font-size: 1em;
+        margin:0;
+        padding: 0;
+    }
+
+    .navbar .menu ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .content {
+        position:absolute;
+        height: 100%;
+        top: 2%;
+
     }
 
     .content .title {
-        font-size: 2.5em;
+        position: relative;
+        font-size: 3em;
+
     }
 
     .content .subtitle {
         font-size: 3.5em;
+        margin-bottom: 50%;
+    }
+
+    .buttons {
+        position: absolute;
+        display: flex;
+        bottom: 0;
+        top: 50%;
+        height: 100%;
     }
 
     .buttons .buttonA,
     .buttons .buttonB {
-        width: 120px;
-        height: 35px;
-        font-size: 0.7em;
+
+        width: 160px;
+        height: 75px;
+        font-size: 1em;
     }
 }
