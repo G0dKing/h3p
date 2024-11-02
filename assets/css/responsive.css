@@ -1,0 +1,164 @@
+/* responsive.css */
+
+/* Base mobile styling adjustments */
+@media (max-width: 1368px) {
+    body {
+        background-size: cover;
+        overflow-y: auto;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .banner {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        margin: 0;
+    }
+
+    .banner p {
+        position: absolute;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+        letter-spacing: 8px;
+        padding: 3;
+        left: 0;
+        margin: 0;
+    }
+
+    .logo {
+        margin-right: 0;
+        padding: 5px;
+        margin: 5px auto;
+    }
+
+    .logo img {
+        width: 150px;
+        max-width: 150px;
+    }
+
+    .navbar {
+        position: absolute;
+        left: 0;
+        top: 2%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+        margin: 0 auto;
+        width: 100%
+    }
+
+    .navbar .menu {
+                position: absolute;
+                left:0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+            text-align: center;
+        gap: 20px;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .navbar .menu ul {
+                position: absolute;
+                left:0;
+        display:flex;
+        justify-content: center;
+            text-align: center;
+        flex-direction: row;
+        width: 100%;
+        font-size: 12px;
+        gap: 12px;
+    }
+
+    .navbar .social-icons {
+        position: relative;
+justify-content: center;
+    text-align: center;
+        bottom: 0;
+        align-items: center;
+        height: 80%;
+        width: 80%;
+        left:0;
+        margin-top: 100px;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .content {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 5%;
+        text-align: center;
+        left: 0;
+        top: -10%;
+        height: 100%;
+    }
+
+    .content .title {
+                display: flex;
+                    justify-content: center;
+                    text-align: center;
+        font-size: 4em;
+    }
+
+    .content .subtitle {
+                display: flex;
+                    justify-content: center;
+                    text-align: center;
+        font-size: 6em;
+    }
+
+    .buttons {
+        flex-direction: row;
+        left: 0;
+        top: 20%;
+        justify-content: space-around;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .buttons .buttonA,
+    .buttons .buttonB {
+        width: 150px;
+        height: 40px;
+        font-size: 0.8em;
+    }
+}
+
+/* Smaller mobile screens */
+@media (max-width: 480px) {
+    .banner p {
+        font-size: 8px;
+        letter-spacing: 4px;
+    }
+
+    .navbar .menu {
+        font-size: 1em;
+    }
+
+    .content .title {
+        font-size: 2.5em;
+    }
+
+    .content .subtitle {
+        font-size: 3.5em;
+    }
+
+    .buttons .buttonA,
+    .buttons .buttonB {
+        width: 120px;
+        height: 35px;
+        font-size: 0.7em;
+    }
+}
