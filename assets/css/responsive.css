@@ -21,7 +21,7 @@
 
     .banner p {
         position: absolute;
-        display:flex;
+        display: flex;
         justify-content: center;
         text-align: center;
         width: 100%;
@@ -51,43 +51,45 @@
         justify-content: center;
         text-align: center;
         flex-direction: row;
-        margin: 0 auto;
-        width: 100%
+        width: 100%;
+        margin: 0;
     }
 
     .navbar .menu {
-                position: absolute;
-                left:0;
+        position: absolute;
+        left: 0;
         display: flex;
         flex-direction: row;
         justify-content: center;
-            text-align: center;
+        text-align: center;
         gap: 20px;
         font-size: 1em;
         width: 100%;
+        margin: 0;
     }
 
     .navbar .menu ul {
-                position: absolute;
-                left:0;
-        display:flex;
+        position: absolute;
+        left: 0;
+        display: flex;
         justify-content: center;
-            text-align: center;
+        text-align: center;
         flex-direction: row;
         width: 100%;
         font-size: 12px;
         gap: 12px;
+        margin: 0;
     }
 
     .navbar .social-icons {
         position: relative;
-justify-content: center;
-    text-align: center;
+        justify-content: space-between;
+        text-align: center;
         bottom: 0;
         align-items: center;
-        height: 80%;
-        width: 80%;
-        left:0;
+        height: 100%;
+        width: 100%;
+        left: 0;
         margin-top: 100px;
         flex-direction: row;
         gap: 15px;
@@ -106,16 +108,16 @@ justify-content: center;
     }
 
     .content .title {
-                display: flex;
-                    justify-content: center;
-                    text-align: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
         font-size: 4em;
     }
 
     .content .subtitle {
-                display: flex;
-                    justify-content: center;
-                    text-align: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
         font-size: 6em;
     }
 
